@@ -1,6 +1,6 @@
 # Raspberry Pi GPS
 
-Build offline map (tile server OSM) with GPS and Raspberry Pi.
+Build offline map (tile server OSM) with Raspberry Pi and GPS NEO-6M.
 
 ## Getting Started
 
