@@ -52,7 +52,7 @@ if ser.is_open:
                 if speed < 30: threshold = 5
                 elif speed >= 30 and speed < 60: threshold = 3
                 elif speed > 60: threshold = 2
-                url = "https://image.maps.api.here.com/mia/1.6/mapview?app_id=zxIpjKnVwUJHVPXF49Fz&app_code=IuikzNONXyFCodw1AaPMIQ&c=" + coordinate + "&h=290&w=480&sb=mk&vt=0&z="+str(zoom)+"&pip&i"
+                url = "https://image.maps.api.here.com/mia/1.6/mapview?app_id=<appid>&app_code=<appcode>" + coordinate + "&h=290&w=480&sb=mk&vt=0&z="+str(zoom)+"&pip&i"
                 if url != oldurl:
                     oldurl = url
                     frameResp = urllib.request.urlopen(url)

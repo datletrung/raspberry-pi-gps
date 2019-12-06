@@ -31,7 +31,7 @@ while True:
                 coordinate = str(data.latitude) + "," + str(data.longitude)
                 
                 #print(coordinate)
-                url = "https://image.maps.api.here.com/mia/1.6/routing?app_id=zxIpjKnVwUJHVPXF49Fz&app_code=IuikzNONXyFCodw1AaPMIQ&waypoint0=" + basecoordinate + "&waypoint1=" + coordinate + "&poix0=" + basecoordinate + ";99ff99;99ff99;0;.&poix1=" + coordinate + ";red;red;15;.&lc=3333cc&lw=6&z=16&h=290&w=480"
+                url = "https://image.maps.api.here.com/mia/1.6/routing?app_id=<appid>&app_code=<appcode>" + basecoordinate + "&waypoint1=" + coordinate + "&poix0=" + basecoordinate + ";99ff99;99ff99;0;.&poix1=" + coordinate + ";red;red;15;.&lc=3333cc&lw=6&z=16&h=290&w=480"
         elif mode == "2":
                 data = str(f.readline())
                 data = data[:len(data)-1]
@@ -42,7 +42,7 @@ while True:
                 coordinate = str(data.latitude) + "," + str(data.longitude)
                 
                 #print(coordinate)
-                url = "https://image.maps.api.here.com/mia/1.6/mapview?app_id=zxIpjKnVwUJHVPXF49Fz&app_code=IuikzNONXyFCodw1AaPMIQ&c=" + coordinate + "&h=290&w=480&sb=mk&vt=0&z=16&pip&i"
+                url = "https://image.maps.api.here.com/mia/1.6/mapview?app_id=<appid>&app_code=<appcode>" + coordinate + "&h=290&w=480&sb=mk&vt=0&z=16&pip&i"
         else: break
         frameResp = urllib.request.urlopen(url)
         frameNp = np.array(bytearray(frameResp.read()),dtype=np.uint8)
