@@ -4,8 +4,7 @@ Build offline map (tile server OSM) with Raspberry Pi and GPS NEO-6M.
 
 ## Getting Started
 
-A just-for-fun project  
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.  
+A just-for-fun project!
 
 ### Prerequisites
 
