@@ -35,7 +35,7 @@ There are 2 files that are render_map.py and run.py:
 p = '<COM# or /usb/tty#>'
 ```
 
-You can test code with Here Map API in heremap folder, just simply replace your app_id and app_code and runthe code.  
+You can test code with Here Map API in heremap folder, just simply replace your app_id and app_code and run the code.  
 
 ```
 url = ..."app_id=<appid>&app_code=<appcode>"...
