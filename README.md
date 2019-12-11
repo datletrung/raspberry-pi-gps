@@ -29,7 +29,7 @@ cd Raspberry-Pi-GPS
 
 There are 2 files that are render_map.py and run.py:  
   - render_map.py basically renders the map by using file coordinate.txt, without using GPS NEO-6M.  
-  - run.py use GPS NEO-6M to get realtime data. Therefore, make sure you change your USB port before you run the code.  
+  - run.py uses GPS NEO-6M to get realtime data. Therefore, make sure you change your USB port before you run the code.  
   
 ```
 p = '<COM# or /usb/tty#>'
