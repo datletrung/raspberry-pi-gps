@@ -49,4 +49,4 @@ smurl = r"http://<server_ip>/map/{0}/{1}/{2}.png"
 
 ## Authors  
 
-* **Tin Le** - **Lê Trung Tất Đạt** - (https://github.com/datletrung)  
+* **Brian Le** - **Lê Trung Tất Đạt** - (https://github.com/datletrung)  
