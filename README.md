@@ -18,12 +18,7 @@ OpenCV, Numpy, urllib
 ### Installing
 
 Setup tile server: https://switch2osm.org/serving-tiles/manually-building-a-tile-server-18-04-lts/  
-Download the repository:  
-
-```
-git clone https://github.com/datletrung/Raspberry-Pi-GPS.git
-cd Raspberry-Pi-GPS
-```
+Download or clone the repository
 
 ### Running the code
 
